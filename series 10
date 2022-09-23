@@ -1,0 +1,6 @@
+n=int(input())
+a=95.0
+for i in range (1,n+1):
+	print(a,end='  ')
+	b=a+18.5+i*2
+	a=b
