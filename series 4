@@ -1,0 +1,5 @@
+n=int(input())
+sum=0.5
+for i in range(0,n):
+    print(sum,end=" ")
+    sum=sum+3**i
